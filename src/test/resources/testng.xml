@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="tutorialsninja automation suites">
+<listeners>
+
+<listener class-name ="com.tutorialsninja.qa.listners.Mylisners"/>
+
+
+
+</listeners>
+
+
+
+  <test name="automationtest">
+    <classes>
+    
+      <class name="qa.sampledproject.loginjavaTest"/>
+      <class name="qa.sampledproject.RegisterTest"/>
+     <class name="qa.sampledproject.SearchTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
